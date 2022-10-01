@@ -1,0 +1,136 @@
+/* Tab Css */
+.signup_form .signup_tab {
+  width: max-content;
+  margin: 0 auto;
+  background: #121212;
+  border-radius: 30px;
+  min-height: auto;
+}
+
+.signup_tab .MuiButtonBase-root.MuiTab-root {
+  min-height: 35px;
+  padding: 6px 16px;
+  color: white;
+}
+
+.signup_tab .MuiButtonBase-root.MuiTab-root.Mui-selected {
+  color: #121212;
+  background-color: #10ff8d;
+  margin: 2px;
+  border-radius: 30px;
+}
+
+.signup_tab span.MuiTabs-indicator {
+  display: none;
+}
+
+.signup_form .tabPanel {
+  padding: 0 15px;
+}
+
+/* Form Css */
+.signup_form {
+  padding: 50px 20px !important;
+  margin: 50px 0 !important;
+  background-color: #242424;
+  max-width: 1000px !important;
+}
+
+.signup_form h4.MuiTypography-h4 {
+  font-size: 24px;
+}
+
+@media (min-width: 992px) {
+  .signup_form {
+    padding: 80px !important;
+    margin: 100px 0 80px !important;
+  }
+  .signup_form h4.MuiTypography-h4 {
+    font-size: 34px;
+  }
+}
+
+.signup_form input {
+  color: #fff;
+  padding: 4px 15px 10px;
+  border: 0;
+  font-size: 14px;
+}
+
+.signup_form
+  label[data-shrink="false"]
+  + .MuiInputBase-formControl
+  input.MuiOutlinedInput-input::-webkit-input-placeholder {
+  opacity: 1 !important;
+  font-size: 14px;
+  color: #999;
+}
+
+.signup_form
+  .MuiInputBase-root.MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: #ffffff;
+}
+
+.signup_form fieldset {
+  border-width: 2px;
+  border-color: #10ff8d;
+  border-radius: 30px;
+}
+
+.signup_form fieldset legend {
+  display: none;
+}
+
+@media (min-width: 1024.99px) {
+  .signup_form form {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.signup_form form .MuiFormControl-root {
+  margin-bottom: 30px;
+}
+
+.signup_form form .MuiFormLabel-root {
+  color: #dddddd;
+  position: unset;
+  transform: unset;
+  margin: 0 0 8px 15px;
+  font-size: 15px;
+}
+
+.signup_form form .MuiInputBase-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #ffffff;
+}
+
+.signup_form form .submitBtn {
+  color: #242424;
+  background-color: #10ff8d;
+  max-width: 180px;
+  width: 100%;
+  border-radius: 30px;
+  margin: 0 auto;
+  border: 1px solid transparent;
+}
+
+.signup_form form .submitBtn:hover {
+  color: white;
+  background-color: #242424;
+  border-color: #fff;
+}
+
+.signup_form form .MuiFormControlLabel-root {
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.signup_form form .MuiFormControlLabel-root .Mui-checked {
+  color: #10ff8d;
+}
+
+.signup_form form .MuiFormControlLabel-root .MuiTypography-root {
+  color: #999999;
+}
